@@ -1,0 +1,5 @@
+{
+  "name": "Trình tạo Prompt Chuẩn",
+  "description": "Một ứng dụng thông minh giúp phân tích tài liệu Word hoặc văn bản để tự động tạo ra một khung prompt chuẩn, giúp người dùng tiết kiệm thời gian và đảm bảo tính nhất quán khi tạo nội dung với AI.",
+  "requestFramePermissions": []
+}
