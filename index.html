@@ -23,9 +23,12 @@
   }
 }
 </script>
+<!-- Thêm Babel Standalone để biên dịch JSX/TSX trực tiếp trong trình duyệt -->
+<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
 </head>
   <body>
     <div id="root"></div>
-    <script type="module" src="/index.js"></script>
+    <!-- Yêu cầu Babel biên dịch tệp /index.tsx của bạn (thay vì trỏ đến /index.js không tồn tại) -->
+    <script type="text/babel" data-type="module" data-presets="typescript,react" src="/index.tsx"></script>
   </body>
 </html>
